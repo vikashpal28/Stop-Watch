@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #edeaff;
+}
+.timmerBox{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , 
+    url(photos/download.jpeg);
+    width: 90%;
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
+.timmerBox h1{
+    font-size: 60px;
+    margin-top: 60px;
+    font-weight: 300px;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 30px 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
